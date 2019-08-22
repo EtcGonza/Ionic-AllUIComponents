@@ -1,0 +1,17 @@
+<app-header [titulo]="this.titulo">
+</app-header>
+
+
+<ion-content padding>
+
+    <h1>{{this.titulo}}</h1>
+
+    <ion-button color="primary" expand="full" (click)="presentAlert()">
+        Alert
+    </ion-button>
+
+    <ion-button color="primary" expand="full" (click)="presentInput()">
+        Input
+    </ion-button>
+
+</ion-content>
